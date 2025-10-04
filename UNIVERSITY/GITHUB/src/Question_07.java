@@ -1,4 +1,4 @@
-public class Question_7 {
+public class Question_07 {
     static void hanoi(int n, char from, char to, char aux) {
         if (n == 1) {
             System.out.println("Move disk 1 from " + from + " to " + to);

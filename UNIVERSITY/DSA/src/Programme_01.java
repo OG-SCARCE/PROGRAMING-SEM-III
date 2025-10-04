@@ -1,6 +1,7 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
-public class Programme_2 {
+public class Programme_01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -13,11 +14,7 @@ public class Programme_2 {
             System.out.print("ENTER " + (i + 1) + "th ELEMENT : ");
             arr[i] = input.nextInt();
         }
-
-        System.out.println("ARRAY IN REVERSE ORDER:");
-        for (int i = num - 1; i >= 0; i--) {
-            System.out.println(arr[i]);
-        }
+        System.out.println("YOUR ARRAY : " + Arrays.toString(arr));
 
         input.close();
     }

@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-public class Question_3 {
+public class Question_03 {
     public static void main(String[] args) {
         int[][] a = {{1, 2}, {3, 4}};
         int[][] b = {{5, 6}, {7, 8}};

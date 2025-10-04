@@ -1,5 +1,5 @@
 
-public class Question_5 {
+public class Question_05 {
     static int factorialRecursive(int n) {
         if (n <= 1) return 1;
         return n * factorialRecursive(n - 1);

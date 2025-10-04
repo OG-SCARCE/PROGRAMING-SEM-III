@@ -1,5 +1,5 @@
 
-public class Question_6 {
+public class Question_06 {
     static void fibIterative(int n) {
         int a = 0, b = 1;
         System.out.print(a + " " + b);

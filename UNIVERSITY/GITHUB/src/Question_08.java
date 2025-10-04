@@ -1,5 +1,5 @@
 
-public class Question_8 {
+public class Question_08 {
     static void print(int n) {
         if (n == 0) return;
         print(n - 1);
